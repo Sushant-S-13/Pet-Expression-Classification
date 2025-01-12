@@ -7,3 +7,9 @@
 Obsevation from the first training phase :
 - The training accuracy increases steadily and approaches 100%, indicating the model fits the training data well.
 - The validation accuracy fluctuates and remains significantly lower, showing poor generalization to unseen data.
+### Update 03
+Attempt to resolve the overfitting issue by using
+- Data Augmentation
+- Smaller Model Architecture
+- Dropout Layers
+- Early Stopping
