@@ -18,3 +18,9 @@ Using transfer learning to improve the performance of the pet expression classif
 - Loaded the pre-trained VGG16 model without the top classification layer.
 - Added custom layers for pet expression classification, including a global average pooling layer and dense layers.
 - Evaluated the accuracy and loss parameters after the model was trained.
+### Update 05
+Evaluated model performance on test data with confusion matrix
+
+![image](https://github.com/user-attachments/assets/bf5df560-c6bc-4291-99f1-ee573bf7e564)
+
+
