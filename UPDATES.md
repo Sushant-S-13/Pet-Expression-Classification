@@ -23,4 +23,13 @@ Evaluated model performance on test data with confusion matrix
 
 ![image](https://github.com/user-attachments/assets/bf5df560-c6bc-4291-99f1-ee573bf7e564)
 
+### Update 06
+Implemented Transfer Learning using a model trained on Animal Dataset for Pet Expression Classification
+- Trained a model on an animal dataset consisting of classes like cat, dog, and other animals.
+- Defined a convolutional neural network (CNN) architecture for the animal classification task.
+- Trained the model and monitored training and validation accuracy/loss.
+- Saved the trained animal classifier model for future use in transfer learning.
+- Applied transfer learning by using the trained animal model to classify pet expressions.
+
+After evaluating the performance of the model trained using animal model as the base model, it was found that the model did not yield satisfactory results for classifying pet expressions. Consequently, shifting our approach to utilize transfer learning with the VGG16 model, which has demonstrated better effectiveness in image classification tasks.
 
