@@ -33,3 +33,8 @@ Implemented Transfer Learning using a model trained on Animal Dataset for Pet Ex
 
 After evaluating the performance of the model trained using animal model as the base model, it was found that the model did not yield satisfactory results for classifying pet expressions. Consequently, shifting our approach to utilize transfer learning with the VGG16 model, which has demonstrated better effectiveness in image classification tasks.
 
+### Update 07
+- Implemented a user-friendly interface using Streamlit for classifying pet expressions.
+- Enabled image upload functionality to allow users to submit pet images for classification.
+- Deployment link : https://pet-expression-classification-b5xlt7mgjuzyzgej9x23um.streamlit.app/
+
